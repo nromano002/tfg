@@ -1,0 +1,598 @@
+Classification Report
+              precision    recall  f1-score   support
+
+           1       0.73      0.44      0.55      2010
+           2       0.82      0.54      0.65      4378
+           3       0.73      0.81      0.77      2971
+           4       0.56      0.57      0.57      3111
+           5       0.46      0.87      0.60      4405
+           6       0.56      0.71      0.63      4081
+           7       0.75      0.60      0.66      3204
+           8       0.81      0.32      0.46      4003
+
+    accuracy                           0.62     28163
+   macro avg       0.68      0.61      0.61     28163
+weighted avg       0.67      0.62      0.61     28163
+
+Confusion Matrix
+[[ 883  151   20  132  596  219    1    8]
+ [ 170 2372  644  206  738  175   14   59]
+ [   3   17 2417   92  216  103   83   40]
+ [  17  125   45 1787  467  366  145  159]
+ [  17  154    9  154 3825  173   53   20]
+ [   4   17    5  182  864 2896  105    8]
+ [   0   29   14  293  532  424 1910    2]
+ [ 110   43  172  318 1046  797  250 1267]]
+
+Test accuracy on folder 1
+61.630505323410034
+
+Classification Report
+              precision    recall  f1-score   support
+
+           1       0.98      0.99      0.99      2009
+           2       0.99      0.99      0.99      4378
+           3       0.99      0.98      0.98      2971
+           4       0.99      0.99      0.99      3112
+           5       0.99      0.97      0.98      4405
+           6       0.99      0.99      0.99      4080
+           7       0.98      0.99      0.98      3204
+           8       0.97      0.99      0.98      4003
+
+    accuracy                           0.98     28162
+   macro avg       0.98      0.98      0.98     28162
+weighted avg       0.98      0.98      0.98     28162
+
+Confusion Matrix
+[[1994   10    0    3    0    0    0    2]
+ [   6 4317   34    8    5    1    0    7]
+ [   1   24 2907    1    3    0    3   32]
+ [   8   14    0 3069    9    2    8    2]
+ [  11    7    1   14 4279   25   23   45]
+ [   1    0    0    3    8 4021   36   11]
+ [   0    1    1    1   15    8 3160   18]
+ [   5    3    4    5    7    9    1 3969]]
+
+Test accuracy on folder 2
+98.41630458831787
+
+Classification Report
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      2009
+           2       1.00      1.00      1.00      4378
+           3       1.00      1.00      1.00      2971
+           4       1.00      1.00      1.00      3112
+           5       1.00      1.00      1.00      4405
+           6       1.00      1.00      1.00      4080
+           7       1.00      1.00      1.00      3204
+           8       1.00      1.00      1.00      4003
+
+    accuracy                           1.00     28162
+   macro avg       1.00      1.00      1.00     28162
+weighted avg       1.00      1.00      1.00     28162
+
+Confusion Matrix
+[[2009    0    0    0    0    0    0    0]
+ [   0 4378    0    0    0    0    0    0]
+ [   0    1 2970    0    0    0    0    0]
+ [   0    0    0 3112    0    0    0    0]
+ [   0    0    0    0 4405    0    0    0]
+ [   0    0    0    0    0 4080    0    0]
+ [   1    0    0    0    0    0 3203    0]
+ [   0    0    1    0    0    0    1 4001]]
+
+Test accuracy on folder 3
+99.98579621315002
+
+Classification Report
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      2010
+           2       1.00      1.00      1.00      4379
+           3       1.00      1.00      1.00      2971
+           4       1.00      1.00      1.00      3112
+           5       1.00      1.00      1.00      4404
+           6       1.00      1.00      1.00      4080
+           7       1.00      1.00      1.00      3204
+           8       1.00      1.00      1.00      4002
+
+    accuracy                           1.00     28162
+   macro avg       1.00      1.00      1.00     28162
+weighted avg       1.00      1.00      1.00     28162
+
+Confusion Matrix
+[[2010    0    0    0    0    0    0    0]
+ [   0 4379    0    0    0    0    0    0]
+ [   0    0 2971    0    0    0    0    0]
+ [   0    0    0 3112    0    0    0    0]
+ [   0    0    0    0 4404    0    0    0]
+ [   0    0    0    0    0 4080    0    0]
+ [   0    0    0    0    0    0 3204    0]
+ [   0    0    0    0    0    0    0 4002]]
+
+Test accuracy on folder 4
+100.0
+
+Classification Report
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      2010
+           2       1.00      1.00      1.00      4378
+           3       1.00      1.00      1.00      2971
+           4       1.00      1.00      1.00      3112
+           5       1.00      1.00      1.00      4404
+           6       1.00      1.00      1.00      4081
+           7       1.00      1.00      1.00      3204
+           8       1.00      1.00      1.00      4002
+
+    accuracy                           1.00     28162
+   macro avg       1.00      1.00      1.00     28162
+weighted avg       1.00      1.00      1.00     28162
+
+Confusion Matrix
+[[2010    0    0    0    0    0    0    0]
+ [   0 4378    0    0    0    0    0    0]
+ [   0    0 2971    0    0    0    0    0]
+ [   0    0    0 3112    0    0    0    0]
+ [   0    0    0    0 4404    0    0    0]
+ [   0    0    0    0    0 4081    0    0]
+ [   0    0    0    0    0    0 3204    0]
+ [   0    0    0    0    0    0    0 4002]]
+
+Test accuracy on folder 5
+100.0
+
+Model: "Net50"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input_1 (InputLayer)           [(None, 48, 48, 3)]  0           []                               
+                                                                                                  
+ conv1 (Conv2D)                 (None, 46, 46, 8)    224         ['input_1[0][0]']                
+                                                                                                  
+ bn_conv1 (BatchNormalization)  (None, 46, 46, 8)    32          ['conv1[0][0]']                  
+                                                                                                  
+ activation (Activation)        (None, 46, 46, 8)    0           ['bn_conv1[0][0]']               
+                                                                                                  
+ res2a_branch2a (Conv2D)        (None, 46, 46, 32)   288         ['activation[0][0]']             
+                                                                                                  
+ bn2a_branch2a (BatchNormalizat  (None, 46, 46, 32)  128         ['res2a_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_1 (Activation)      (None, 46, 46, 32)   0           ['bn2a_branch2a[0][0]']          
+                                                                                                  
+ res2a_branch2b (Conv2D)        (None, 46, 46, 32)   9248        ['activation_1[0][0]']           
+                                                                                                  
+ bn2a_branch2b (BatchNormalizat  (None, 46, 46, 32)  128         ['res2a_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_2 (Activation)      (None, 46, 46, 32)   0           ['bn2a_branch2b[0][0]']          
+                                                                                                  
+ res2a_branch1 (Conv2D)         (None, 46, 46, 128)  1152        ['activation[0][0]']             
+                                                                                                  
+ res2a_branch2c (Conv2D)        (None, 46, 46, 128)  4224        ['activation_2[0][0]']           
+                                                                                                  
+ bn2a_branch1 (BatchNormalizati  (None, 46, 46, 128)  512        ['res2a_branch1[0][0]']          
+ on)                                                                                              
+                                                                                                  
+ bn2a_branch2c (BatchNormalizat  (None, 46, 46, 128)  512        ['res2a_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add (Add)                      (None, 46, 46, 128)  0           ['bn2a_branch1[0][0]',           
+                                                                  'bn2a_branch2c[0][0]']          
+                                                                                                  
+ activation_3 (Activation)      (None, 46, 46, 128)  0           ['add[0][0]']                    
+                                                                                                  
+ res2b_branch2a (Conv2D)        (None, 46, 46, 32)   4128        ['activation_3[0][0]']           
+                                                                                                  
+ bn2b_branch2a (BatchNormalizat  (None, 46, 46, 32)  128         ['res2b_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_4 (Activation)      (None, 46, 46, 32)   0           ['bn2b_branch2a[0][0]']          
+                                                                                                  
+ res2b_branch2b (Conv2D)        (None, 46, 46, 32)   9248        ['activation_4[0][0]']           
+                                                                                                  
+ bn2b_branch2b (BatchNormalizat  (None, 46, 46, 32)  128         ['res2b_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_5 (Activation)      (None, 46, 46, 32)   0           ['bn2b_branch2b[0][0]']          
+                                                                                                  
+ res2b_branch2c (Conv2D)        (None, 46, 46, 128)  4224        ['activation_5[0][0]']           
+                                                                                                  
+ bn2b_branch2c (BatchNormalizat  (None, 46, 46, 128)  512        ['res2b_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_1 (Add)                    (None, 46, 46, 128)  0           ['activation_3[0][0]',           
+                                                                  'bn2b_branch2c[0][0]']          
+                                                                                                  
+ activation_6 (Activation)      (None, 46, 46, 128)  0           ['add_1[0][0]']                  
+                                                                                                  
+ res2c_branch2a (Conv2D)        (None, 46, 46, 32)   4128        ['activation_6[0][0]']           
+                                                                                                  
+ bn2c_branch2a (BatchNormalizat  (None, 46, 46, 32)  128         ['res2c_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_7 (Activation)      (None, 46, 46, 32)   0           ['bn2c_branch2a[0][0]']          
+                                                                                                  
+ res2c_branch2b (Conv2D)        (None, 46, 46, 32)   9248        ['activation_7[0][0]']           
+                                                                                                  
+ bn2c_branch2b (BatchNormalizat  (None, 46, 46, 32)  128         ['res2c_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_8 (Activation)      (None, 46, 46, 32)   0           ['bn2c_branch2b[0][0]']          
+                                                                                                  
+ res2c_branch2c (Conv2D)        (None, 46, 46, 128)  4224        ['activation_8[0][0]']           
+                                                                                                  
+ bn2c_branch2c (BatchNormalizat  (None, 46, 46, 128)  512        ['res2c_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_2 (Add)                    (None, 46, 46, 128)  0           ['activation_6[0][0]',           
+                                                                  'bn2c_branch2c[0][0]']          
+                                                                                                  
+ activation_9 (Activation)      (None, 46, 46, 128)  0           ['add_2[0][0]']                  
+                                                                                                  
+ res3a_branch2a (Conv2D)        (None, 23, 23, 64)   8256        ['activation_9[0][0]']           
+                                                                                                  
+ bn3a_branch2a (BatchNormalizat  (None, 23, 23, 64)  256         ['res3a_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_10 (Activation)     (None, 23, 23, 64)   0           ['bn3a_branch2a[0][0]']          
+                                                                                                  
+ res3a_branch2b (Conv2D)        (None, 23, 23, 64)   36928       ['activation_10[0][0]']          
+                                                                                                  
+ bn3a_branch2b (BatchNormalizat  (None, 23, 23, 64)  256         ['res3a_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_11 (Activation)     (None, 23, 23, 64)   0           ['bn3a_branch2b[0][0]']          
+                                                                                                  
+ res3a_branch1 (Conv2D)         (None, 23, 23, 256)  33024       ['activation_9[0][0]']           
+                                                                                                  
+ res3a_branch2c (Conv2D)        (None, 23, 23, 256)  16640       ['activation_11[0][0]']          
+                                                                                                  
+ bn3a_branch1 (BatchNormalizati  (None, 23, 23, 256)  1024       ['res3a_branch1[0][0]']          
+ on)                                                                                              
+                                                                                                  
+ bn3a_branch2c (BatchNormalizat  (None, 23, 23, 256)  1024       ['res3a_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_3 (Add)                    (None, 23, 23, 256)  0           ['bn3a_branch1[0][0]',           
+                                                                  'bn3a_branch2c[0][0]']          
+                                                                                                  
+ activation_12 (Activation)     (None, 23, 23, 256)  0           ['add_3[0][0]']                  
+                                                                                                  
+ res3b_branch2a (Conv2D)        (None, 23, 23, 64)   16448       ['activation_12[0][0]']          
+                                                                                                  
+ bn3b_branch2a (BatchNormalizat  (None, 23, 23, 64)  256         ['res3b_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_13 (Activation)     (None, 23, 23, 64)   0           ['bn3b_branch2a[0][0]']          
+                                                                                                  
+ res3b_branch2b (Conv2D)        (None, 23, 23, 64)   36928       ['activation_13[0][0]']          
+                                                                                                  
+ bn3b_branch2b (BatchNormalizat  (None, 23, 23, 64)  256         ['res3b_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_14 (Activation)     (None, 23, 23, 64)   0           ['bn3b_branch2b[0][0]']          
+                                                                                                  
+ res3b_branch2c (Conv2D)        (None, 23, 23, 256)  16640       ['activation_14[0][0]']          
+                                                                                                  
+ bn3b_branch2c (BatchNormalizat  (None, 23, 23, 256)  1024       ['res3b_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_4 (Add)                    (None, 23, 23, 256)  0           ['activation_12[0][0]',          
+                                                                  'bn3b_branch2c[0][0]']          
+                                                                                                  
+ activation_15 (Activation)     (None, 23, 23, 256)  0           ['add_4[0][0]']                  
+                                                                                                  
+ res3c_branch2a (Conv2D)        (None, 23, 23, 64)   16448       ['activation_15[0][0]']          
+                                                                                                  
+ bn3c_branch2a (BatchNormalizat  (None, 23, 23, 64)  256         ['res3c_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_16 (Activation)     (None, 23, 23, 64)   0           ['bn3c_branch2a[0][0]']          
+                                                                                                  
+ res3c_branch2b (Conv2D)        (None, 23, 23, 64)   36928       ['activation_16[0][0]']          
+                                                                                                  
+ bn3c_branch2b (BatchNormalizat  (None, 23, 23, 64)  256         ['res3c_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_17 (Activation)     (None, 23, 23, 64)   0           ['bn3c_branch2b[0][0]']          
+                                                                                                  
+ res3c_branch2c (Conv2D)        (None, 23, 23, 256)  16640       ['activation_17[0][0]']          
+                                                                                                  
+ bn3c_branch2c (BatchNormalizat  (None, 23, 23, 256)  1024       ['res3c_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_5 (Add)                    (None, 23, 23, 256)  0           ['activation_15[0][0]',          
+                                                                  'bn3c_branch2c[0][0]']          
+                                                                                                  
+ activation_18 (Activation)     (None, 23, 23, 256)  0           ['add_5[0][0]']                  
+                                                                                                  
+ res3d_branch2a (Conv2D)        (None, 23, 23, 64)   16448       ['activation_18[0][0]']          
+                                                                                                  
+ bn3d_branch2a (BatchNormalizat  (None, 23, 23, 64)  256         ['res3d_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_19 (Activation)     (None, 23, 23, 64)   0           ['bn3d_branch2a[0][0]']          
+                                                                                                  
+ res3d_branch2b (Conv2D)        (None, 23, 23, 64)   36928       ['activation_19[0][0]']          
+                                                                                                  
+ bn3d_branch2b (BatchNormalizat  (None, 23, 23, 64)  256         ['res3d_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_20 (Activation)     (None, 23, 23, 64)   0           ['bn3d_branch2b[0][0]']          
+                                                                                                  
+ res3d_branch2c (Conv2D)        (None, 23, 23, 256)  16640       ['activation_20[0][0]']          
+                                                                                                  
+ bn3d_branch2c (BatchNormalizat  (None, 23, 23, 256)  1024       ['res3d_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_6 (Add)                    (None, 23, 23, 256)  0           ['activation_18[0][0]',          
+                                                                  'bn3d_branch2c[0][0]']          
+                                                                                                  
+ activation_21 (Activation)     (None, 23, 23, 256)  0           ['add_6[0][0]']                  
+                                                                                                  
+ res4a_branch2a (Conv2D)        (None, 12, 12, 128)  32896       ['activation_21[0][0]']          
+                                                                                                  
+ bn4a_branch2a (BatchNormalizat  (None, 12, 12, 128)  512        ['res4a_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_22 (Activation)     (None, 12, 12, 128)  0           ['bn4a_branch2a[0][0]']          
+                                                                                                  
+ res4a_branch2b (Conv2D)        (None, 12, 12, 128)  147584      ['activation_22[0][0]']          
+                                                                                                  
+ bn4a_branch2b (BatchNormalizat  (None, 12, 12, 128)  512        ['res4a_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_23 (Activation)     (None, 12, 12, 128)  0           ['bn4a_branch2b[0][0]']          
+                                                                                                  
+ res4a_branch1 (Conv2D)         (None, 12, 12, 512)  131584      ['activation_21[0][0]']          
+                                                                                                  
+ res4a_branch2c (Conv2D)        (None, 12, 12, 512)  66048       ['activation_23[0][0]']          
+                                                                                                  
+ bn4a_branch1 (BatchNormalizati  (None, 12, 12, 512)  2048       ['res4a_branch1[0][0]']          
+ on)                                                                                              
+                                                                                                  
+ bn4a_branch2c (BatchNormalizat  (None, 12, 12, 512)  2048       ['res4a_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_7 (Add)                    (None, 12, 12, 512)  0           ['bn4a_branch1[0][0]',           
+                                                                  'bn4a_branch2c[0][0]']          
+                                                                                                  
+ activation_24 (Activation)     (None, 12, 12, 512)  0           ['add_7[0][0]']                  
+                                                                                                  
+ res4b_branch2a (Conv2D)        (None, 12, 12, 128)  65664       ['activation_24[0][0]']          
+                                                                                                  
+ bn4b_branch2a (BatchNormalizat  (None, 12, 12, 128)  512        ['res4b_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_25 (Activation)     (None, 12, 12, 128)  0           ['bn4b_branch2a[0][0]']          
+                                                                                                  
+ res4b_branch2b (Conv2D)        (None, 12, 12, 128)  147584      ['activation_25[0][0]']          
+                                                                                                  
+ bn4b_branch2b (BatchNormalizat  (None, 12, 12, 128)  512        ['res4b_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_26 (Activation)     (None, 12, 12, 128)  0           ['bn4b_branch2b[0][0]']          
+                                                                                                  
+ res4b_branch2c (Conv2D)        (None, 12, 12, 512)  66048       ['activation_26[0][0]']          
+                                                                                                  
+ bn4b_branch2c (BatchNormalizat  (None, 12, 12, 512)  2048       ['res4b_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_8 (Add)                    (None, 12, 12, 512)  0           ['activation_24[0][0]',          
+                                                                  'bn4b_branch2c[0][0]']          
+                                                                                                  
+ activation_27 (Activation)     (None, 12, 12, 512)  0           ['add_8[0][0]']                  
+                                                                                                  
+ res4c_branch2a (Conv2D)        (None, 12, 12, 128)  65664       ['activation_27[0][0]']          
+                                                                                                  
+ bn4c_branch2a (BatchNormalizat  (None, 12, 12, 128)  512        ['res4c_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_28 (Activation)     (None, 12, 12, 128)  0           ['bn4c_branch2a[0][0]']          
+                                                                                                  
+ res4c_branch2b (Conv2D)        (None, 12, 12, 128)  147584      ['activation_28[0][0]']          
+                                                                                                  
+ bn4c_branch2b (BatchNormalizat  (None, 12, 12, 128)  512        ['res4c_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_29 (Activation)     (None, 12, 12, 128)  0           ['bn4c_branch2b[0][0]']          
+                                                                                                  
+ res4c_branch2c (Conv2D)        (None, 12, 12, 512)  66048       ['activation_29[0][0]']          
+                                                                                                  
+ bn4c_branch2c (BatchNormalizat  (None, 12, 12, 512)  2048       ['res4c_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_9 (Add)                    (None, 12, 12, 512)  0           ['activation_27[0][0]',          
+                                                                  'bn4c_branch2c[0][0]']          
+                                                                                                  
+ activation_30 (Activation)     (None, 12, 12, 512)  0           ['add_9[0][0]']                  
+                                                                                                  
+ res4d_branch2a (Conv2D)        (None, 12, 12, 128)  65664       ['activation_30[0][0]']          
+                                                                                                  
+ bn4d_branch2a (BatchNormalizat  (None, 12, 12, 128)  512        ['res4d_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_31 (Activation)     (None, 12, 12, 128)  0           ['bn4d_branch2a[0][0]']          
+                                                                                                  
+ res4d_branch2b (Conv2D)        (None, 12, 12, 128)  147584      ['activation_31[0][0]']          
+                                                                                                  
+ bn4d_branch2b (BatchNormalizat  (None, 12, 12, 128)  512        ['res4d_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_32 (Activation)     (None, 12, 12, 128)  0           ['bn4d_branch2b[0][0]']          
+                                                                                                  
+ res4d_branch2c (Conv2D)        (None, 12, 12, 512)  66048       ['activation_32[0][0]']          
+                                                                                                  
+ bn4d_branch2c (BatchNormalizat  (None, 12, 12, 512)  2048       ['res4d_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_10 (Add)                   (None, 12, 12, 512)  0           ['activation_30[0][0]',          
+                                                                  'bn4d_branch2c[0][0]']          
+                                                                                                  
+ activation_33 (Activation)     (None, 12, 12, 512)  0           ['add_10[0][0]']                 
+                                                                                                  
+ res4e_branch2a (Conv2D)        (None, 12, 12, 128)  65664       ['activation_33[0][0]']          
+                                                                                                  
+ bn4e_branch2a (BatchNormalizat  (None, 12, 12, 128)  512        ['res4e_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_34 (Activation)     (None, 12, 12, 128)  0           ['bn4e_branch2a[0][0]']          
+                                                                                                  
+ res4e_branch2b (Conv2D)        (None, 12, 12, 128)  147584      ['activation_34[0][0]']          
+                                                                                                  
+ bn4e_branch2b (BatchNormalizat  (None, 12, 12, 128)  512        ['res4e_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_35 (Activation)     (None, 12, 12, 128)  0           ['bn4e_branch2b[0][0]']          
+                                                                                                  
+ res4e_branch2c (Conv2D)        (None, 12, 12, 512)  66048       ['activation_35[0][0]']          
+                                                                                                  
+ bn4e_branch2c (BatchNormalizat  (None, 12, 12, 512)  2048       ['res4e_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_11 (Add)                   (None, 12, 12, 512)  0           ['activation_33[0][0]',          
+                                                                  'bn4e_branch2c[0][0]']          
+                                                                                                  
+ activation_36 (Activation)     (None, 12, 12, 512)  0           ['add_11[0][0]']                 
+                                                                                                  
+ res4f_branch2a (Conv2D)        (None, 12, 12, 128)  65664       ['activation_36[0][0]']          
+                                                                                                  
+ bn4f_branch2a (BatchNormalizat  (None, 12, 12, 128)  512        ['res4f_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_37 (Activation)     (None, 12, 12, 128)  0           ['bn4f_branch2a[0][0]']          
+                                                                                                  
+ res4f_branch2b (Conv2D)        (None, 12, 12, 128)  147584      ['activation_37[0][0]']          
+                                                                                                  
+ bn4f_branch2b (BatchNormalizat  (None, 12, 12, 128)  512        ['res4f_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_38 (Activation)     (None, 12, 12, 128)  0           ['bn4f_branch2b[0][0]']          
+                                                                                                  
+ res4f_branch2c (Conv2D)        (None, 12, 12, 512)  66048       ['activation_38[0][0]']          
+                                                                                                  
+ bn4f_branch2c (BatchNormalizat  (None, 12, 12, 512)  2048       ['res4f_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_12 (Add)                   (None, 12, 12, 512)  0           ['activation_36[0][0]',          
+                                                                  'bn4f_branch2c[0][0]']          
+                                                                                                  
+ activation_39 (Activation)     (None, 12, 12, 512)  0           ['add_12[0][0]']                 
+                                                                                                  
+ res5a_branch2a (Conv2D)        (None, 6, 6, 256)    131328      ['activation_39[0][0]']          
+                                                                                                  
+ bn5a_branch2a (BatchNormalizat  (None, 6, 6, 256)   1024        ['res5a_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_40 (Activation)     (None, 6, 6, 256)    0           ['bn5a_branch2a[0][0]']          
+                                                                                                  
+ res5a_branch2b (Conv2D)        (None, 6, 6, 256)    590080      ['activation_40[0][0]']          
+                                                                                                  
+ bn5a_branch2b (BatchNormalizat  (None, 6, 6, 256)   1024        ['res5a_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_41 (Activation)     (None, 6, 6, 256)    0           ['bn5a_branch2b[0][0]']          
+                                                                                                  
+ res5a_branch1 (Conv2D)         (None, 6, 6, 1024)   525312      ['activation_39[0][0]']          
+                                                                                                  
+ res5a_branch2c (Conv2D)        (None, 6, 6, 1024)   263168      ['activation_41[0][0]']          
+                                                                                                  
+ bn5a_branch1 (BatchNormalizati  (None, 6, 6, 1024)  4096        ['res5a_branch1[0][0]']          
+ on)                                                                                              
+                                                                                                  
+ bn5a_branch2c (BatchNormalizat  (None, 6, 6, 1024)  4096        ['res5a_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_13 (Add)                   (None, 6, 6, 1024)   0           ['bn5a_branch1[0][0]',           
+                                                                  'bn5a_branch2c[0][0]']          
+                                                                                                  
+ activation_42 (Activation)     (None, 6, 6, 1024)   0           ['add_13[0][0]']                 
+                                                                                                  
+ res5b_branch2a (Conv2D)        (None, 6, 6, 256)    262400      ['activation_42[0][0]']          
+                                                                                                  
+ bn5b_branch2a (BatchNormalizat  (None, 6, 6, 256)   1024        ['res5b_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_43 (Activation)     (None, 6, 6, 256)    0           ['bn5b_branch2a[0][0]']          
+                                                                                                  
+ res5b_branch2b (Conv2D)        (None, 6, 6, 256)    590080      ['activation_43[0][0]']          
+                                                                                                  
+ bn5b_branch2b (BatchNormalizat  (None, 6, 6, 256)   1024        ['res5b_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_44 (Activation)     (None, 6, 6, 256)    0           ['bn5b_branch2b[0][0]']          
+                                                                                                  
+ res5b_branch2c (Conv2D)        (None, 6, 6, 1024)   263168      ['activation_44[0][0]']          
+                                                                                                  
+ bn5b_branch2c (BatchNormalizat  (None, 6, 6, 1024)  4096        ['res5b_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_14 (Add)                   (None, 6, 6, 1024)   0           ['activation_42[0][0]',          
+                                                                  'bn5b_branch2c[0][0]']          
+                                                                                                  
+ activation_45 (Activation)     (None, 6, 6, 1024)   0           ['add_14[0][0]']                 
+                                                                                                  
+ res5c_branch2a (Conv2D)        (None, 6, 6, 256)    262400      ['activation_45[0][0]']          
+                                                                                                  
+ bn5c_branch2a (BatchNormalizat  (None, 6, 6, 256)   1024        ['res5c_branch2a[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_46 (Activation)     (None, 6, 6, 256)    0           ['bn5c_branch2a[0][0]']          
+                                                                                                  
+ res5c_branch2b (Conv2D)        (None, 6, 6, 256)    590080      ['activation_46[0][0]']          
+                                                                                                  
+ bn5c_branch2b (BatchNormalizat  (None, 6, 6, 256)   1024        ['res5c_branch2b[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ activation_47 (Activation)     (None, 6, 6, 256)    0           ['bn5c_branch2b[0][0]']          
+                                                                                                  
+ res5c_branch2c (Conv2D)        (None, 6, 6, 1024)   263168      ['activation_47[0][0]']          
+                                                                                                  
+ bn5c_branch2c (BatchNormalizat  (None, 6, 6, 1024)  4096        ['res5c_branch2c[0][0]']         
+ ion)                                                                                             
+                                                                                                  
+ add_15 (Add)                   (None, 6, 6, 1024)   0           ['activation_45[0][0]',          
+                                                                  'bn5c_branch2c[0][0]']          
+                                                                                                  
+ activation_48 (Activation)     (None, 6, 6, 1024)   0           ['add_15[0][0]']                 
+                                                                                                  
+ avg_pool (AveragePooling2D)    (None, 3, 3, 1024)   0           ['activation_48[0][0]']          
+                                                                                                  
+ flatten (Flatten)              (None, 9216)         0           ['avg_pool[0][0]']               
+                                                                                                  
+ fc1024 (Dense)                 (None, 512)          4719104     ['flatten[0][0]']                
+                                                                                                  
+ fc9 (Dense)                    (None, 9)            4617        ['fc1024[0][0]']                 
+                                                                                                  
+==================================================================================================
+Total params: 10,647,753
+Trainable params: 10,621,241
+Non-trainable params: 26,512
+__________________________________________________________________________________________________
+
+SUMMARY
+
+Mean accuracy
+92.00652241706848
+
+F1-Score
+91.8727105091263
+
+Precision
+93.12001670532857
+
+Recall
+92.00652204738219
+
+Confusion Matrix
+[[1781   32    4   27  119   43    0    2]
+ [  35 3964  135   42  148   35    2   13]
+ [   0    8 2847   18   43   20   17   14]
+ [   5   27    9 2838   95   73   30   32]
+ [   5   32    2   33 4263   39   15   13]
+ [   1    3    1   37  174 3831   28    3]
+ [   0    6    3   58  109   86 2936    4]
+ [  23    9   35   64  210  161   50 3448]]
