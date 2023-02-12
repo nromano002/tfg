@@ -1,0 +1,181 @@
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.42      0.37      0.39       254
+           1       0.40      0.39      0.40       254
+           2       0.47      0.67      0.55       254
+           3       0.52      0.42      0.46       218
+           4       0.36      0.36      0.36       254
+           5       0.62      0.56      0.59       255
+
+    accuracy                           0.46      1489
+   macro avg       0.47      0.46      0.46      1489
+weighted avg       0.46      0.46      0.46      1489
+
+Confusion Matrix
+[[ 94  25  57  18  39  21]
+ [ 23 100  18  29  49  35]
+ [ 32   8 169  16  25   4]
+ [ 38  25  40  91  21   3]
+ [ 20  34  71  15  91  23]
+ [ 15  57   4   6  31 142]]
+
+Test accuracy on folder 1
+46.138349175453186
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.58      0.38      0.46       255
+           1       0.54      0.43      0.48       254
+           2       0.45      0.76      0.57       255
+           3       0.51      0.53      0.52       217
+           4       0.52      0.50      0.51       254
+           5       0.85      0.75      0.80       254
+
+    accuracy                           0.56      1489
+   macro avg       0.57      0.56      0.55      1489
+weighted avg       0.58      0.56      0.55      1489
+
+Confusion Matrix
+[[ 97  36  68  22  14  18]
+ [ 16 109  19  41  61   8]
+ [ 17   7 193  16  22   0]
+ [  9  15  64 114  13   2]
+ [ 14  14  79  14 126   7]
+ [ 15  22   2  16   8 191]]
+
+Test accuracy on folder 2
+55.7421088218689
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.71      0.54      0.61       254
+           1       0.63      0.76      0.69       254
+           2       0.59      0.66      0.62       254
+           3       0.63      0.76      0.69       217
+           4       0.68      0.57      0.62       255
+           5       0.90      0.81      0.85       254
+
+    accuracy                           0.68      1488
+   macro avg       0.69      0.68      0.68      1488
+weighted avg       0.69      0.68      0.68      1488
+
+Confusion Matrix
+[[138  24  39  33   9  11]
+ [  7 192   4  17  26   8]
+ [ 27   7 168  36  16   0]
+ [  5  18  22 164   8   0]
+ [ 14  30  52   9 145   5]
+ [  4  35   0   1   9 205]]
+
+Test accuracy on folder 3
+68.01075339317322
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.69      0.72      0.71       254
+           1       0.77      0.68      0.72       255
+           2       0.59      0.73      0.65       254
+           3       0.63      0.81      0.71       217
+           4       0.82      0.51      0.63       254
+           5       0.92      0.93      0.92       254
+
+    accuracy                           0.73      1488
+   macro avg       0.74      0.73      0.72      1488
+weighted avg       0.74      0.73      0.72      1488
+
+Confusion Matrix
+[[182  15  27  25   3   2]
+ [ 21 173  10  25  11  15]
+ [ 24   2 185  34   9   0]
+ [  9   9  20 175   2   2]
+ [ 19  21  69  15 129   1]
+ [  7   5   0   3   4 235]]
+
+Test accuracy on folder 4
+72.51344323158264
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.83      0.69      0.76       254
+           1       0.79      0.83      0.81       254
+           2       0.68      0.75      0.71       254
+           3       0.69      0.90      0.78       218
+           4       0.76      0.63      0.69       254
+           5       0.94      0.87      0.90       254
+
+    accuracy                           0.77      1488
+   macro avg       0.78      0.78      0.77      1488
+weighted avg       0.78      0.77      0.77      1488
+
+Confusion Matrix
+[[176   9  28  21  12   8]
+ [  5 210   5  18  12   4]
+ [ 11   5 190  30  18   0]
+ [  3   3  10 196   6   0]
+ [ 10  22  47  14 160   1]
+ [  6  18   1   6   3 220]]
+
+Test accuracy on folder 5
+77.4193525314331
+
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 54, 1, 16)         131984    
+                                                                 
+ activation (Activation)     (None, 54, 1, 16)         0         
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 27, 1, 16)        0         
+ )                                                               
+                                                                 
+ dropout (Dropout)           (None, 27, 1, 16)         0         
+                                                                 
+ conv2d_1 (Conv2D)           (None, 27, 1, 32)         2080      
+                                                                 
+ activation_1 (Activation)   (None, 27, 1, 32)         0         
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 14, 1, 32)        0         
+ 2D)                                                             
+                                                                 
+ dropout_1 (Dropout)         (None, 14, 1, 32)         0         
+                                                                 
+ time_distributed (TimeDistr  (None, 14, 32)           0         
+ ibuted)                                                         
+                                                                 
+ lstm (LSTM)                 (None, 100)               53200     
+                                                                 
+ dense (Dense)               (None, 6)                 606       
+                                                                 
+=================================================================
+Total params: 187,870
+Trainable params: 187,870
+Non-trainable params: 0
+_________________________________________________________________
+
+SUMMARY
+
+Mean accuracy
+63.96480143070221
+
+F1-Score
+63.81242025323335
+
+Precision
+65.07164892513234
+
+Recall
+63.96480101388677
+
+Confusion Matrix
+[[137  21  43  23  15  12]
+ [ 14 156  11  26  31  14]
+ [ 22   5 181  26  18   0]
+ [ 12  14  31 148  10   1]
+ [ 15  24  63  13 130   7]
+ [  9  27   1   6  11 198]]
